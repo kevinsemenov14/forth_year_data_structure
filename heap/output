@@ -1,0 +1,103 @@
+Kevin semenov CLASS Cs1D
+This program will Show each intermediate heap 
+while adding the following nodes
+to a heap (key, value) 
+ 
+All elments added to the heap 
+the top of the heap is Bears
+The heap is 
+
+Bears 13
+Vikings 22
+Bengals 44
+Broncos 24
+Chargers 49
+Lions 88
+Packers 69
+Dolphins 44
+Rams 33
+Patriots 123
+
+Removing the top of the heap
+
+Vikings 22
+Broncos 24
+Bengals 44
+Dolphins 44
+Chargers 49
+Lions 88
+Packers 69
+Patriots 123
+Rams 33
+
+Removing the top of the heap
+
+Broncos 24
+Rams 33
+Bengals 44
+Dolphins 44
+Chargers 49
+Lions 88
+Packers 69
+Patriots 123
+
+Removing the top of the heap
+
+Rams 33
+Dolphins 44
+Bengals 44
+Patriots 123
+Chargers 49
+Lions 88
+Packers 69
+
+Removing the top of the heap
+
+Bengals 44
+Dolphins 44
+Packers 69
+Patriots 123
+Chargers 49
+Lions 88
+
+Removing the top of the heap
+
+Dolphins 44
+Lions 88
+Packers 69
+Patriots 123
+Chargers 49
+
+Removing the top of the heap
+
+Chargers 49
+Lions 88
+Packers 69
+Patriots 123
+
+Removing the top of the heap
+
+Lions 88
+Patriots 123
+Packers 69
+
+Removing the top of the heap
+
+Packers 69
+Patriots 123
+
+Removing the top of the heap
+
+Patriots 123
+
+The list in order 
+Bears 13
+Vikings 22
+Broncos 24
+Rams 33
+Bengals 44
+Dolphins 44
+Chargers 49
+Lions 88
+Packers 69
+Patriots 123

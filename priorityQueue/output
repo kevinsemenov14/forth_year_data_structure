@@ -1,0 +1,33 @@
+Programmer Kevin Semenov Class CS1D - Priorityqueue
+
+This program will Test both priority queues with the following data assuming 
+that the priority queue is built at noon and Doctor DoGood is the only doctor on duty.
+Each patient requires 20 minutes of care.  The patient who waited the longest has the
+highest priority unless there is a life threatening scenario. 
+Determine the order in which the patients will be treated.  
+ 
+Assumptions 
+1. When a patient's care is interrupted, they still only get 20 minutes of care total
+2. If a patient’s treatment starts at 1:00 and is not interrupted, then the next patient’s treatment will start at 1:20.
+3. Waiting time is wait time before noon 
+ 
+The time is 12:00 the person being seen now is Frank Feelingbad and is seen for 20 mins 
+The time now is 12:20 Irene ill is the next person in line and is seen until 12:22 since Bob Bleeding comes in and takes higher priority 
+The time now is 12:42 and Irene ill is seen again for 18 mins until 1:00pm 
+The time now is 1:00  and Alice Ailment is seen until 1:20
+The time now is 1:20  and Cathy Coughing is seen until 1:40 
+The time now is 1:20  and Tom Temperature  is seen until 1:45 
+becouse Sid Sickly comes in with a higher priority and is seen until 2:05 
+the time is now 2:05 and Tom Temperature  is seen again until 2:20
+ 
+Part Two using the stl Priority queue
+ 
+The time is 12:00 the person being seen now is Frank Feelingbad and is seen for 20 mins 
+The time now is 12:20 Irene ill is the next person in line and is seen until 12:22 since Bob Bleeding comes in and takes higher priority 
+The time now is 12:42 and Irene ill is seen again for 18 mins until 1:00pm 
+The time now is 1:00  and Alice Ailment is seen until 1:20
+The time now is 1:20  and Cathy Coughing is seen until 1:40 
+The time now is 1:20  and Tom Temperature is seen until 1:45 
+becouse Sid Sickly comes in with a higher priority and is seen until 2:05 
+the time is now 2:05 and Tom Temperature is seen again until 2:20
+ 

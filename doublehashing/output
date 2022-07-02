@@ -1,0 +1,47 @@
+Kevin Semenov Class CS1D Double hashing program Assigment 7
+
+Develop fully documented software to store the
+following keys and values into a data structure(s) 
+of your choice (array(s), vector(s), etc.) using the 
+double hashing algorithm.   
+Output what data structure you chose. Use a map (not a dictionary).
+
+This program is using a vector class to make the map and will store
+in data using h(k) = k mod 31 h’(k) = 17 - k mod 17 if the same key is enterd 
+the map it will repalce the value and keep the key
+
+San Clemente 
+73 Key does not exist
+41 Key does not exist
+
+ index 0 Los Angeles 31
+ index 1 San Diego  32
+ index 2   -1
+ index 3 Dana Point 29
+ index 4 Tustin 35
+ index 5   -1
+ index 6 San Juan 99
+ index 7 Vista 42
+ index 8   -1
+ index 9 El Segundo  88
+ index 10 Palms Springs 72
+ index 11 La Jolla 11
+ index 12 Laguna Hills 62
+ index 13 Irvine 44
+ index 14   -1
+ index 15   -1
+ index 16   -1
+ index 17 Orange 17
+ index 18 Del Mar 18
+ index 19 Brea 19
+ index 20 San Diego 49
+ index 21   -1
+ index 22 Aliso Viejo 22
+ index 23   -1
+ index 24   -1
+ index 25   -1
+ index 26 Oceanside 103
+ index 27   -1
+ index 28   -1
+ index 29 Santa Ana 60
+ index 30 San Clemente 41

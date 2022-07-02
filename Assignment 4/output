@@ -1,0 +1,55 @@
+Kevin semenov cs1D 
+This program will Implement a binary search tree using an array, vector or linked list.
+The program will also Perform the in-order, post-order, pre-order, breadth-first traversals.
+Lastly the program will print out the binary search tree by level.
+
+Inserting 88 into the tree
+Inserting 12 into the tree
+Inserting 24 into the tree
+Inserting 49 into the tree
+Inserting 7 into the tree
+Inserting 25 into the tree
+Inserting 55 into the tree
+Inserting 18 into the tree
+Inserting 19 into the tree
+Inserting 13 into the tree
+Inserting 109 into the tree
+Inserting 18 into the tree
+The item to be inserted is already in the tree -- duplicates are not allowed.
+Inserting 44 into the tree
+Inserting 1001 into the tree
+
+
+The trees height is 5
+
+performing the inorder traversal on the tree
+
+7 12 13 18 19 24 25 44 49 55 88 109 1001 
+
+performing the postorder Traversal  on the tree
+
+7 13 19 18 44 25 55 49 24 12 1001 109 88 
+
+performing the preorder Traversal  on the tree
+
+88 12 7 24 18 13 19 49 25 44 55 109 1001 
+
+performing the breathFirst Traversal on the tree
+
+88 12 109 7 24 1001 18 49 13 19 25 55 44 
+
+there are 6 leaves on the tree
+
+
+
+                                                          88
+
+                                                12                 109
+
+                                       7             24                     1001
+
+         binaryTree                             18        49
+
+                                           13     19    25   55
+
+                                                          44

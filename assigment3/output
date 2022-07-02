@@ -1,0 +1,35 @@
+Name : Kevin semenov
+Class: CS1D 
+This Program will Implement the Queue interface with a class that 
+is based on the LinkedDeque and DLinkedList classes and part two will 
+will Implement the vector ADT by means of an extendable array used in a circular
+fashion, so that insertions and deletions at the beginning and end run in constant time. 
+Print the circular array before and after each insertion and deletion. 
+Insertions and deletion that do not at the beginning or end will run in O(n) time.
+
+part A using the Queue
+Adding A man, a plan, a canal, Panama to the list
+
+Adding Was it a car or a cat I saw?
+
+Adding Sit on a potato pan, Otis
+
+showing the front: A man, a plan, a canal, Panama
+
+Part B using a extendable array used in a circular fashion
+
+The capacity of the vector: 10
+The size of the Vector: 0
+Adding 13 to the back of the Vector
+showing the array 13 
+The size of the Vector: 1
+Adding 113 to the front of the Vector
+showing the array 113 13 
+The size of the Vector: 2
+Showing the Element At 1: 13
+inserting 3 into element 2
+showing the array 113 13 3 
+Showing the Element At 2: 3
+Removing the last element of the Vector
+Showing the Element At 2: nothing at that element
+showing the array 113 13 

@@ -1,0 +1,15 @@
+INPUT(
+./debug\ArrayFill.o
+./debug\ClassHeader.o
+./debug\heapsort.o
+./debug\LetterToInt.o
+./debug\main.o
+./debug\mergesort.o
+./debug\OutputChartHeader.o
+./debug\outputmergeheap.o
+./debug\OutputQuickSort.o
+./debug\outputsorttypeheader.o
+./debug\Quicksort.o
+./debug\Radix.o
+./debug\WordWrap.o
+);

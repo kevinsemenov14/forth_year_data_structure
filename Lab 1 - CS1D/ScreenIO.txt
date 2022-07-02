@@ -1,0 +1,74 @@
+
+This program will generate twenty three-digit numbers. The
+ program will store, sort, and reverse the random numbers of
+ vector. Then copy the reversed vector into another vector then
+ sum the digits of each number in the vector and store the sums
+ into another vector. Once that is complete the program will
+ output each vector to the user.
+
+Sorted Vector: 
+  1: 100
+  2: 144
+  3: 180
+  4: 209
+  5: 253
+  6: 330
+  7: 339
+  8: 347
+  9: 384
+ 10: 417
+ 11: 602
+ 12: 703
+ 13: 771
+ 14: 802
+ 15: 813
+ 16: 820
+ 17: 820
+ 18: 902
+ 19: 907
+ 20: 915
+
+Reversed Vector: 
+  1: 001
+  2: 441
+  3: 081
+  4: 902
+  5: 352
+  6: 033
+  7: 933
+  8: 743
+  9: 483
+ 10: 714
+ 11: 206
+ 12: 307
+ 13: 177
+ 14: 208
+ 15: 318
+ 16: 028
+ 17: 028
+ 18: 209
+ 19: 709
+ 20: 519
+
+Summed Vector: 
+The sum of the digits in 100 is 1
+The sum of the digits in 144 is 9
+The sum of the digits in 180 is 9
+The sum of the digits in 209 is 11
+The sum of the digits in 253 is 10
+The sum of the digits in 330 is 6
+The sum of the digits in 339 is 15
+The sum of the digits in 347 is 14
+The sum of the digits in 384 is 15
+The sum of the digits in 417 is 12
+The sum of the digits in 602 is 8
+The sum of the digits in 703 is 10
+The sum of the digits in 771 is 15
+The sum of the digits in 802 is 10
+The sum of the digits in 813 is 12
+The sum of the digits in 820 is 10
+The sum of the digits in 820 is 10
+The sum of the digits in 902 is 11
+The sum of the digits in 907 is 16
+The sum of the digits in 915 is 15
+

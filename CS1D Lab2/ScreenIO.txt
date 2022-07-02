@@ -1,0 +1,39 @@
+******************************************************
+*  PROGRAMMED BY : Aaris Watts & Kathryn Cox
+*  CLASS         : CS1C --> MW - 2:00pm
+*  LAB #2        : Recursion
+******************************************************
+
+   Program that determines whether an entire string is a palindrome or not.
+   The program will remove whitespace and punctuation. It is not case
+   sensitive.
+
+   String to test: radar
+   The string : "radar" is a Palindrome! :>
+
+   String to test: CS1D
+   The string : "CS1D" is not a Palindrome! :<
+
+   String to test: Racecar
+   The string : "Racecar" is a Palindrome! :>
+
+   String to test: Saddleback
+   The string : "Saddleback" is not a Palindrome! :<
+
+   String to test: dad
+   The string : "dad" is a Palindrome! :>
+
+   String to test: mom
+   The string : "mom" is a Palindrome! :>
+
+   String to test:  A man a plan a canal Panama
+   The string : " A man a plan a canal Panama" is a Palindrome! :>
+
+   String to test: The rain in Spain
+   The string : "The rain in Spain" is not a Palindrome! :<
+
+   String to test: No lemon, no melon
+   The string : "No lemon, no melon" is a Palindrome! :>
+
+   String to test: Was it a cat I saw?
+   The string : "Was it a cat I saw?" is a Palindrome! :>

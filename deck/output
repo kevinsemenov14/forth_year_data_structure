@@ -1,0 +1,130 @@
+Programmer KEVIN SEMENOV 
+This programe will use stacks, queue , deques and the stl stack showing the inputs and out puts
+of the data and then it will show how it takes data out of the contoiners. 
+PART A.
+INSTRUCTIONS - Implement and print the stacks using the STL 
+<stack> with the above data.
+- Tasha
+- JoAnn
+- Lucy
+- Mark
+- Cathy
+- Jane
+stack of doubles 
+- 48.4
+- 887.55
+- 88.88
+- 123.123
+- 8.445
+- 983.3
+- 1.2
+- 354.8
+
+PART B.
+INSTRUCTIONS - Delete Cathy and 1.2 from the above stacks 
+(you will need to delete others) using the STL <stack> and print
+the remaining elements in the stacks.
+Popping the stack
+remaining stack
+Mark is left on top
+popping the double stack till popped 1.2
+983.3 is left on the top of the stack
+
+PART C.
+INSTRUCTIONS - C.	Implement and print the stacks using a singly 
+linked list using the above data.  Do not use the STL.
+- Tasha
+- JoAnn
+- Lucy
+- Mark
+- Cathy
+- Jane
+stack of doubles 
+- 48.4
+- 887.55
+- 88.88
+- 123.123
+- 8.445
+- 983.3
+- 1.2
+- 354.8
+
+ part D.	Delete Cathy and 1.2 from the above stacks 
+(you will need to delete others) and print the remaining elements
+in the stacks. Do not use the STL.
+
+Popping the stack
+remaining stack
+Mark is left on top
+popping the double stack till popped 1.2
+983.3 is left on the top of the stack
+
+ part E.	Implement and print the queues using either a circular 
+array or a linked list using the above data.  Do not use the STL.
+- Tasha
+- JoAnn
+- Lucy
+- Mark
+- Cathy
+- Jane
+queue of doubles 
+- 48.4
+- 887.55
+- 88.88
+- 123.123
+- 8.445
+- 983.3
+- 1.2
+- 354.8
+
+ part F.	Cathy and 1.2 from the above queues (you will need to 
+delete others)  and print the remaining elements in the queues. 
+Do not use the STL.
+- Jane
+double queue.
+- 1.2
+
+part G.	Implement and print the deques using a linked list using 
+the above data.    Do not use the STL.
+- Tasha
+- JoAnn
+- Lucy
+- Mark
+- Cathy
+- Jane
+deck of doubles 
+- 48.4
+- 887.55
+- 88.88
+- 123.123
+- 8.445
+- 983.3
+- 1.2
+- 354.8
+
+ part H. Cathy and 1.2 from the above deques (you will need 
+to delete others) and print the remaining elements in the deques. 
+Do not use the STL.
+- Mark
+- Lucy
+- JoAnn
+- Tasha
+reaming doubles
+- 983.3
+- 8.445
+- 123.123
+- 88.88
+- 887.55
+- 48.4
+
+
+I.	Implement the Parentheses Algorithm without using the STL).  
+Test your algorithm with the following mathematical statements. 
+ 
+(2x - 4) (12x + 6) is a true statement
+{2x + 5} (6x+4)} is a untrue statement 
+[(5x - 5) - 4x[6x + 2]] is a true statement
+{{8x+5) - 5x[9x+3]}) is a untrue statement 
+{(8x+5) - 6x[9x+3]] is a untrue statement 
+(2x - 4) (12x + 6} is a untrue statement 
+(((6x+6) - x[9x+3]))) is a untrue statement 

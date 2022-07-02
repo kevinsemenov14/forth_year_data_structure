@@ -1,0 +1,162 @@
+******************************************************
+*   PROGRAMMED BY : Ryan Martinez
+*   STUDENT ID    : 389657
+*   CLASS         : CS1D
+*   SECTION       : M\W 3:30
+*   ASSIGNMENT #14: Sorting Efficienty
+******************************************************
+
+This assignment's job is to test efficiency of sorting algorithms. This
+program tests the efficiency in both number of sorts and time for each
+sorting algorithm. Both the Quicksort section as well as the Heap/Merge
+sort section contain explanations on why each algorithm has the
+performance it does.
+
+Quick Sort:
+
+ORDERED -
+Size(N)   Pivot Type     Time (ns)      Swaps     
+
+5000      First          31239703       0         UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+5000      Middle         2866229        0         UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+5000      Random         3232753        0         UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+10000     First          113473417      0         UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+10000     Middle         5788476        0         UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+10000     Random         6324257        0         UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+50000     First          2685833291     0         UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+50000     Middle         32242598       0         UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+50000     Random         41696608       0         UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+
+
+REVERSE ORDERED -
+Size(N)   Pivot Type     Time (ns)      Swaps     
+
+5000      First          30461181       2500      UNSORTED: 5000, 4999, 4998, 4997, 4996
+                                                  SORTED  : 1, 2, 3, 4, 5
+5000      Middle         3016212        2500      UNSORTED: 5000, 4999, 4998, 4997, 4996
+                                                  SORTED  : 1, 2, 3, 4, 5
+5000      Random         4365451        2500      UNSORTED: 5000, 4999, 4998, 4997, 4996
+                                                  SORTED  : 1, 2, 3, 4, 5
+10000     First          111525453      5000      UNSORTED: 10000, 9999, 9998, 9997, 9996
+                                                  SORTED  : 1, 2, 3, 4, 5
+10000     Middle         5907439        5000      UNSORTED: 10000, 9999, 9998, 9997, 9996
+                                                  SORTED  : 1, 2, 3, 4, 5
+10000     Random         8296315        5000      UNSORTED: 10000, 9999, 9998, 9997, 9996
+                                                  SORTED  : 1, 2, 3, 4, 5
+50000     First          2665404968     25000     UNSORTED: 50000, 49999, 49998, 49997, 49996
+                                                  SORTED  : 1, 2, 3, 4, 5
+50000     Middle         32004072       25000     UNSORTED: 50000, 49999, 49998, 49997, 49996
+                                                  SORTED  : 1, 2, 3, 4, 5
+50000     Random         41121074       25000     UNSORTED: 50000, 49999, 49998, 49997, 49996
+                                                  SORTED  : 1, 2, 3, 4, 5
+
+
+RANDOM NUMBERS -
+Size(N)   Pivot Type     Time (ns)      Swaps     
+
+5000      First          4188966        23963     UNSORTED: 19112, 14303, 2710, 9248, 723
+                                                  SORTED  : 10, 11, 15, 21, 24
+5000      Middle         3912492        16438     UNSORTED: 19112, 14303, 2710, 9248, 723
+                                                  SORTED  : 10, 11, 15, 21, 24
+5000      Random         4680775        19072     UNSORTED: 19112, 14303, 2710, 9248, 723
+                                                  SORTED  : 10, 11, 15, 21, 24
+10000     First          8063511        52789     UNSORTED: 19112, 14303, 2710, 9248, 723
+                                                  SORTED  : 0, 5, 6, 7, 9
+10000     Middle         7500324        36161     UNSORTED: 19112, 14303, 2710, 9248, 723
+                                                  SORTED  : 0, 5, 6, 7, 9
+10000     Random         10123209       41692     UNSORTED: 19112, 14303, 2710, 9248, 723
+                                                  SORTED  : 0, 5, 6, 7, 9
+50000     First          41474947       303387    UNSORTED: 19112, 14303, 2710, 9248, 723
+                                                  SORTED  : 0, 0, 0, 1, 2
+50000     Middle         39383326       244226    UNSORTED: 19112, 14303, 2710, 9248, 723
+                                                  SORTED  : 0, 0, 0, 1, 2
+50000     Random         48151271       260601    UNSORTED: 19112, 14303, 2710, 9248, 723
+                                                  SORTED  : 0, 0, 0, 1, 2
+
+Using the left most pivot is a bad idea because ifthe array was already sorted 
+(not uncommon) then you run in the worst case, which is O(n^2). The best case is 
+O(logn) which is a substantial improvement. On average there was little 
+difference between a random pivot or the middle pivot, but when there was the 
+middle pivot came out just slightly better so I suppose thats the strategy I 
+would prefer.
+
+
+Merge & Heap Sorts:
+
+ORDERED -
+Algorithm      Size (N)  Time (ns)      Swaps
+
+Merge          50000     29113147       784464    UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+Heap           50000     12075690       673302    UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+Merge          75000     41802017       1218928   UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+Heap           75000     18703525       1053700   UNSORTED: 1, 2, 3, 4, 5
+                                                  SORTED  : 1, 2, 3, 4, 5
+
+
+REVERSE ORDERED -
+Algorithm      Size (N)  Time (ns)      Swaps
+
+Merge          50000     26997130       784464    UNSORTED: 50000, 49999, 49998, 49997, 49996
+                                                  SORTED  : 1, 2, 3, 4, 5
+Heap           50000     11319152       652001    UNSORTED: 50000, 49999, 49998, 49997, 49996
+                                                  SORTED  : 2, 3, 4, 5, 6
+Merge          75000     41188837       1218928   UNSORTED: 75000, 74999, 74998, 74997, 74996
+                                                  SORTED  : 1, 2, 3, 4, 5
+Heap           75000     18178888       1023017   UNSORTED: 75000, 74999, 74998, 74997, 74996
+                                                  SORTED  : 2, 3, 4, 5, 6
+
+
+RANDOM NUMBERS -
+Algorithm      Size (N)  Time (ns)      Swaps
+
+Merge          50000     31535151       784464    UNSORTED: 19112, 14303, 2710, 9248, 723
+                                                  SORTED  : 0, 0, 0, 1, 2
+Heap           50000     14871145       650551    UNSORTED: 19115, 25051, 17806, 544, 11037
+                                                  SORTED  : 0, 0, 0, 0, 1
+Merge          75000     47254389       1218928   UNSORTED: 19115, 25051, 17806, 544, 11037
+                                                  SORTED  : 0, 0, 0, 0, 0
+Heap           75000     23239138       1018105   UNSORTED: 19115, 25051, 17806, 544, 11037
+                                                  SORTED  : 0, 0, 0, 0, 0
+
+
+Both of the algorithms showed close swap amounts, but the execution time was 
+always in favor of the heap sort. Although the two sorts show close swaps, the 
+Heap sort consistently shows better execution in terms of the swaps that it 
+needs to make. Both of these algorithms are performed in O(n log(n)) time, but 
+the Heap still seems to show better performance.
+
+
+Radix Sort:
+
+UNSORTED - 
+acdes, asdsd, ksjtr, kerpt, absqa, zabaa, rkdsb, qqqqq , kdfaa, zedsd
+
+RADIX SORTED OVER LETTER 5 - 
+absqa, zabaa, kdfaa, rkdsb, asdsd, zedsd, qqqqq , ksjtr, acdes, kerpt
+
+RADIX SORTED OVER LETTER 4 - 
+zabaa, kdfaa, acdes, kerpt, absqa, qqqqq , rkdsb, asdsd, zedsd, ksjtr
+
+RADIX SORTED OVER LETTER 3 - 
+zabaa, acdes, rkdsb, asdsd, zedsd, kdfaa, ksjtr, qqqqq , kerpt, absqa
+
+RADIX SORTED OVER LETTER 2 - 
+zabaa, absqa, acdes, kdfaa, zedsd, kerpt, rkdsb, qqqqq , asdsd, ksjtr
+
+RADIX SORTED OVER LETTER 1 - 
+absqa, acdes, asdsd, kdfaa, kerpt, ksjtr, qqqqq , rkdsb, zabaa, zedsd
+
+SORTED - 
+absqa, acdes, asdsd, kdfaa, kerpt, ksjtr, qqqqq , rkdsb, zabaa, zedsd

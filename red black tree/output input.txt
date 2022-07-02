@@ -1,0 +1,251 @@
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+4
+Empty status = true
+ 
+Post order :
+Pre order :
+In order :
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+1
+Enter integer element to insert
+8
+ 
+Post order : 8B
+Pre order : 8B
+In order : 8B
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+1
+Enter integer element to insert
+3
+ 
+Post order : 3R 8B
+Pre order : 8B 3R
+In order : 3R 8B
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+1
+Enter integer element to insert
+5
+ 
+Post order : 3R 8R 5B
+Pre order : 5B 3R 8R
+In order : 3R 5B 8R
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+1
+Enter integer element to insert
+2
+ 
+Post order : 2R 3B 8B 5B
+Pre order : 5B 3B 2R 8B
+In order : 2R 3B 5B 8B
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+1
+Enter integer element to insert
+1
+ 
+Post order : 1R 3R 2B 8B 5B
+Pre order : 5B 2B 1R 3R 8B
+In order : 1R 2B 3R 5B 8B
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+1
+Enter integer element to insert
+9
+ 
+Post order : 1R 3R 2B 9R 8B 5B
+Pre order : 5B 2B 1R 3R 8B 9R
+In order : 1R 2B 3R 5B 8B 9R
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+1
+Enter integer element to insert
+10
+ 
+Post order : 1R 3R 2B 8R 10R 9B 5B
+Pre order : 5B 2B 1R 3R 9B 8R 10R
+In order : 1R 2B 3R 5B 8R 9B 10R
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+3
+Nodes = 7
+ 
+Post order : 1R 3R 2B 8R 10R 9B 5B
+Pre order : 5B 2B 1R 3R 9B 8R 10R
+In order : 1R 2B 3R 5B 8R 9B 10R
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+2
+Enter integer element to search
+4
+Search result : false
+ 
+Post order : 1R 3R 2B 8R 10R 9B 5B
+Pre order : 5B 2B 1R 3R 9B 8R 10R
+In order : 1R 2B 3R 5B 8R 9B 10R
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+2
+Enter integer element to search
+6
+Search result : false
+ 
+Post order : 1R 3R 2B 8R 10R 9B 5B
+Pre order : 5B 2B 1R 3R 9B 8R 10R
+In order : 1R 2B 3R 5B 8R 9B 10R
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+2
+Enter integer element to search
+3
+Search result : true
+ 
+Post order : 1R 3R 2B 8R 10R 9B 5B
+Pre order : 5B 2B 1R 3R 9B 8R 10R
+In order : 1R 2B 3R 5B 8R 9B 10R
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+5
+ 
+Tree Cleared
+ 
+Post order :
+Pre order :
+In order :
+Do you want to continue (Type y or n)
+ 
+y
+ 
+Red Black Tree Operations
+ 
+1. insert
+2. search
+3. count nodes
+4. check empty
+5. clear tree
+4
+Empty status = true
+ 
+Post order :
+Pre order :
+In order :
+Do you want to continue (Type y or n)
+ 
+n

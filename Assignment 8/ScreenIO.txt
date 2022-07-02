@@ -1,0 +1,132 @@
+/*****************************************************
+ * Name: Keval Varia
+ * Class: Data Structures
+ * Assignment #8: Skip List
+ * ---------------------------------------------------
+ * Program Details:
+ * - In this program we will implement a dictionary
+ *   using a skip list.
+ * - Then we will test all dictionary methods:
+ *   a. insert
+ *   b. delete
+ *   c. search
+ *   d. print just the values
+ *   e. print level-by-level
+ * - The testing will be done using pre-existing data.
+ * - Node class stores the keya and value for each node.
+ * - insertions will use a coin flip to determine how
+ *   many copies will be stored.
+ * - deletions will take place based on key.
+ *****************************************************/
+
+Inserting 4 values:
+18 Laguna Niguel
+22 San Clemente
+41 Mission Viejo
+44 Irvine
+
+
+Removing Mission Viejo
+Printing level-by-level:
+44
+44
+18 22 44
+
+Inserting 3 values:
+18 Laguna Niguel
+22 San Clemente
+32 San Diego
+44 Irvine
+49 Anaheim
+58 Lake Forest
+
+
+Removing Lake Forest
+Printing level-by-level:
+44
+32 44
+18 22 32 44 49
+
+Inserting 4 values:
+17 Orange
+18 Laguna Niguel
+22 San Clemente
+31 Los Angeles
+32 San Diego
+41 Riverside
+44 Irvine
+49 Anaheim
+72 Palm Springs
+
+
+Removing 73
+Printing level-by-level:
+41
+41
+41 44
+32 41 44
+17 18 22 31 32 41 44 49 72
+
+Inserting 8 values:
+11 La Jolla
+17 Orange
+18 Del Mar
+18 Laguna Niguel
+19 Brea
+22 Aliso Viejo
+22 San Clemente
+31 Los Angeles
+32 San Diego
+35 Tustin
+41 Riverside
+44 Irvine
+49 Laguna Beach
+49 Anaheim
+60 Santa Ana
+72 Palm Springs
+103 Oceanside
+
+
+Removing 41
+Printing level-by-level:
+49
+18 22 44 49 60
+18 22 32 44 49 60
+11 17 18 18 19 22 22 31 32 35 44 49 49 60 72 103
+
+Inserting 7 values:
+11 La Jolla
+17 Orange
+18 Del Mar
+18 Laguna Niguel
+19 Brea
+22 Aliso Viejo
+22 San Clemente
+29 Dana Point
+31 Los Angeles
+32 San Diego
+35 Tustin
+41 San Celemente
+42 Vista
+44 Irvine
+49 San Diego
+49 Laguna Beach
+49 Anaheim
+60 Santa Ana
+62 Laguna Hills
+72 Palm Springs
+88 El Segundo
+99 San Juan
+103 Oceanside
+
+
+Printing level-by-level:
+49
+49
+49
+49 49 88
+18 22 29 42 44 49 49 60 62 88
+18 22 29 32 42 44 49 49 60 62 88
+11 17 18 18 19 22 22 29 31 32 35 41 42 44 49 49 49 60 62 72 88 99 103
+
+End Of Program!

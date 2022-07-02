@@ -1,0 +1,246 @@
+/*******************************************************************************
+* NAME(S)        : Kevin Semenov
+* PROFESSOR      : Jerry Lebowitz
+* CLASS          : CS1D
+* ASSIGNMENT #   : 11
+* DATE COMPLETED : 17 April, 2017
+* DATE DUE       : 17 April, 2017
+******************************************************************************/
+
+This program will perform a DFS and BFS starting at Seattle.
+Each edge will be identified as either a discovery edge or
+back edge. It will also output the total distance traveled
+for both DFS and BFS.
+
+---Inserting all the cities and their edges into the graph.---
+
+Adding node: Seattle
+Node successfully added.
+
+Adding node: San Francisco
+Node successfully added.
+
+Adding node: Denver
+Node successfully added.
+
+Adding node: Chicago
+Node successfully added.
+
+Adding node: Los Angeles
+Node successfully added.
+
+Adding node: Kansas City
+Node successfully added.
+
+Adding node: Boston
+Node successfully added.
+
+Adding node: New York
+Node successfully added.
+
+Adding node: Dallas
+Node successfully added.
+
+Adding node: Atlanta
+Node successfully added.
+
+Adding node: Houston
+Node successfully added.
+
+Adding node: Miami
+Node successfully added.
+
+Adding edge: 
+origin: Seattle
+destination: San Francisco
+Edge successfully added.
+
+Adding edge: 
+origin: Seattle
+destination: Denver
+Edge successfully added.
+
+Adding edge: 
+origin: San Francisco
+destination: Los Angeles
+Edge successfully added.
+
+Adding edge: 
+origin: Denver
+destination: Seattle
+Edge successfully added.
+
+Adding edge: 
+origin: Denver
+destination: Chicago
+Edge successfully added.
+
+Adding edge: 
+origin: Chicago
+destination: Seattle
+Edge successfully added.
+
+Adding edge: 
+origin: Chicago
+destination: Boston
+Edge successfully added.
+
+Adding edge: 
+origin: Los Angeles
+destination: Denver
+Edge successfully added.
+
+Adding edge: 
+origin: Kansas City
+destination: Denver
+Edge successfully added.
+
+Adding edge: 
+origin: Kansas City
+destination: Chicago
+Edge successfully added.
+
+Adding edge: 
+origin: Kansas City
+destination: New York
+Edge successfully added.
+
+Adding edge: 
+origin: Kansas City
+destination: Atlanta
+Edge successfully added.
+
+Adding edge: 
+origin: Kansas City
+destination: Los Angeles
+Edge successfully added.
+
+Adding edge: 
+origin: Boston
+destination: New York
+Edge successfully added.
+
+Adding edge: 
+origin: New York
+destination: Atlanta
+Edge successfully added.
+
+Adding edge: 
+origin: New York
+destination: Chicago
+Edge successfully added.
+
+Adding edge: 
+origin: Dallas
+destination: Kansas City
+Edge successfully added.
+
+Adding edge: 
+origin: Dallas
+destination: Atlanta
+Edge successfully added.
+
+Adding edge: 
+origin: Dallas
+destination: Los Angeles
+Edge successfully added.
+
+Adding edge: 
+origin: Atlanta
+destination: Miami
+Edge successfully added.
+
+Adding edge: 
+origin: Atlanta
+destination: Kansas City
+Edge successfully added.
+
+Adding edge: 
+origin: Houston
+destination: Dallas
+Edge successfully added.
+
+Adding edge: 
+origin: Houston
+destination: Atlanta
+Edge successfully added.
+
+Adding edge: 
+origin: Miami
+destination: Houston
+Edge successfully added.
+
+Starting Depth First Search (DFS). 
+Re-painting the graph's edges to none-types..
+
+Path has been found! Outputting edges..
+
+---Outputting the destination edges..--- 
+Atlanta          | Miami
+Boston           | New York
+Chicago          | Boston
+Chicago          | Seattle
+Dallas           | Kansas City
+Houston          | Dallas
+Kansas City      | Chicago
+Los Angeles      | Denver
+Miami            | Houston
+San Francisco    | Los Angeles
+Seattle          | San Francisco
+
+
+---Outputting the back edges..--- 
+Atlanta          | Kansas City
+Dallas           | Atlanta
+Dallas           | Los Angeles
+Denver           | Chicago
+Denver           | Seattle
+Houston          | Atlanta
+Kansas City      | Denver
+Kansas City      | Atlanta
+Kansas City      | New York
+Kansas City      | Los Angeles
+New York         | Chicago
+New York         | Atlanta
+Seattle          | Denver
+
+
+
+total distance: 12045
+
+Starting Breadth First Search (DFS). 
+Re-painting the graph's edges to none-types..
+Level: 1 Atlanta
+Level: 2 Miami
+Level: 2 Kansas City
+Level: 3 Houston
+Level: 3 Chicago
+Level: 3 Denver
+Level: 3 New York
+Level: 3 Los Angeles
+Level: 4 Dallas
+Level: 4 Boston
+Level: 4 Seattle
+Level: 5 San Francisco
+
+Performing the BFS and outputting the nodes found..
+---Outputting the destination edges..--- 
+Atlanta          | Miami
+Atlanta          | Kansas City
+Chicago          | Boston
+Chicago          | Seattle
+Houston          | Dallas
+Kansas City      | Chicago
+Kansas City      | Denver
+Kansas City      | New York
+Kansas City      | Los Angeles
+Miami            | Houston
+Seattle          | San Francisco
+
+
+---Outputting the cross edges..--- 
+Denver           | Chicago
+Los Angeles      | Denver
+New York         | Chicago
+
+total distance: 10654

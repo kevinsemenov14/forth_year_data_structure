@@ -1,0 +1,15 @@
+INPUT(
+./release\ArrayFill.o
+./release\ClassHeader.o
+./release\heapsort.o
+./release\LetterToInt.o
+./release\main.o
+./release\mergesort.o
+./release\OutputChartHeader.o
+./release\outputmergeheap.o
+./release\OutputQuickSort.o
+./release\outputsorttypeheader.o
+./release\Quicksort.o
+./release\Radix.o
+./release\WordWrap.o
+);
